@@ -1,0 +1,27 @@
+name = "idkaboutbytes/rxcollectionserviceutils"
+version = "1.1.7"
+description = "RxCollectionServiceUtils package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/rxcollectionserviceutils"
+includes = [
+    "pesde.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "default.project.json",
+    "src/**/*.luau",
+]
+
+[wally_indices]
+default = "https://github.com/UpliftGames/wally-index"
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[dependencies]
+Observable = { repo = "idkaboutbytes/observable", rev = "v1.0.2" }
+Loader = { repo = "idkaboutbytes/loader", rev = "v1.2.3" }
+Brio = { repo = "idkaboutbytes/brio", rev = "v1.2.2" }
+Maid = { repo = "idkaboutbytes/maid", rev = "v1.1.2" }
