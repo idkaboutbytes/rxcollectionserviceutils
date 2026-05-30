@@ -1,0 +1,15 @@
+{
+  "name": "RxCollectionServiceUtils",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Packages": {
+        "$className": "Folder",
+        "RxCollectionServiceUtils": {
+          "$path": "src"
+        }
+      }
+    }
+  }
+}
